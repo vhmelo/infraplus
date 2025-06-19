@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+lib/
+include/
+bin/
+share/
+pip-log.txt
+pip-delete-this-directory.txt
+.venv/
+
+# Virtual Environment
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# Database
+database.db # Se você ainda tem o arquivo SQLite e não quer ele no Git
+*.sqlite3
+
+# Flask-specific
+instance/

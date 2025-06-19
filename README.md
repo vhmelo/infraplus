@@ -1,4 +1,4 @@
-# InfraPlus - MVP de Gerenciamento de Usuários
+# InfraPlus - MVP
 
 Este é um Produto Mínimo Viável (MVP) para gerenciamento de usuários, desenvolvido como parte de um projeto de aprendizado.
 

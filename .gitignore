@@ -22,7 +22,7 @@ pip-delete-this-directory.txt
 .env
 
 # Database
-database.db # Se você ainda tem o arquivo SQLite e não quer ele no Git
+database.db
 *.sqlite3
 
 # Flask-specific

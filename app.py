@@ -28,7 +28,7 @@ def get_db_connection():
         )
         return conn
     except psycopg2.Error as e:
-        print(f"Erro ao conectar ao banco de dados PostgreSQL: {e}")
+        print(f"Erro ao conectar ao banco de dados: {e}")
         raise
 
 def init_db():
@@ -45,7 +45,7 @@ def init_db():
             )
         ''')
         conn.commit()
-        print("Banco de dados PostgreSQL inicializado e tabela 'users' verificada/criada.")
+        print("Banco de dados inicializado e tabela 'users' verificada/criada.")
     except Exception as e:
         print(f"Erro ao inicializar o banco de dados: {e}")
     finally:
@@ -67,7 +67,7 @@ def cadastrar_usuario():
     if not nome or not email or not senha:
         return jsonify({'error': 'Todos os campos são obrigatórios.'}), 400
 
-    senha_hash = hashlib.sha256(senha.encode()).hexdigest()
+    senha_hash = hashlib.sha256(senha.encode()).hexdigest() # senha chega aleatória no banco de dados
 
     conn = None
     try:

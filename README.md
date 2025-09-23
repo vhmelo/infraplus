@@ -59,6 +59,6 @@ Siga os passos para colocar o projeto em funcionamento na sua máquina:
 
 ## 👨‍💻 Contato
 
-* **Victor Hugo** - [https://github.com/RealVitu1](https://github.com/RealVitu1)
+* **Victor Hugo** - [https://github.com/vhmelo](https://github.com/vhmelo)
 
 ---

@@ -1,6 +1,6 @@
 # InfraPlus - MVP
 
-Este é um Produto Mínimo Viável (MVP) para gerenciamento de usuários, desenvolvido como parte de um projeto de aprendizado.
+Este é um Produto Mínimo Viável (MVP), o projeto ainda está em andamento.
 
 ## ✨ Funcionalidades
 

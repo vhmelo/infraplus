@@ -185,7 +185,7 @@ def delete_usuario(user_id):
 
 if __name__ == '__main__':
     if not all([DB_NAME, DB_USER, DB_PASSWORD]):
-        print("ERRO: As variáveis do database não foram carregadas.")
+        print("ERRO: As variáveis do banco de dados não foram carregadas.")
         exit(1)
 
     init_db()

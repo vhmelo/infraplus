@@ -1,4 +1,4 @@
-# InfraPlus - MVP
+# InfraPlus
 
 Este é um Produto Mínimo Viável (MVP), o projeto ainda está em andamento.
 
@@ -46,9 +46,9 @@ Siga os passos para colocar o projeto em funcionamento na sua máquina:
     * Crie um arquivo `.env` na raiz do projeto com suas credenciais:
         ```
         DB_HOST=localhost
-        DB_NAME=Infraplus
-        DB_USER=victor
-        DB_PASSWORD=victor
+        DB_NAME=nome do seu banco
+        DB_USER=seu usuário
+        DB_PASSWORD=sua senha
         ```
 
 5.  **Execute o Aplicativo:**
